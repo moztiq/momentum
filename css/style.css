@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  color: white;
+  font-family: 'Tektur', cursive;
+  padding: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+#top {
+  display: flex;
+  justify-content: space-between;
+  height: 180px;
+  padding: 30px;
+  background: rgba(255, 243, 240, 0.2);
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+#top h1 {
+  font-size: 50px;
+  color: #ffe9c8;
+}
+
+#top-right {
+  text-align: right;
+  font-size: 20px;
+}
+
+#login-form input[type=text] {
+  font-family: 'Tektur', cursive;
+  font-size: 20px;
+  width: 500px;
+  padding: 10px;
+  border: #eea656 solid 5px;
+  color: #ee981a;
+  background-color: #ffe9c8;
+}
+
+#login-form input::placeholder {
+  color: #b2b1b1;
+}
+
+#login-form input[type=submit] {
+  font-family: 'Tektur', cursive;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  color: #754500;
+  background-color: #ee981a;
+  border: #bb6f00 solid 2px;
+}
+
+#center {
+  display: flex;
+  justify-content: space-around;
+}
+
+#quote {
+  width: 50vw;
+  padding: 30px;
+  background: rgba(255, 243, 240, 0.2);
+  border-radius: 15px;
+}
+
+#quote h1 {
+  font-size: 40px;
+  color: #d9b5ff;
+}
+
+#quote #message {
+  font-size: 25px;
+  color: #eddefc;
+}
+
+#quote #author {
+  font-size: 25px;
+  height: 100px;
+  font-style: italic;
+  color: #d9b5ff;
+}
+
+#todo {
+  width: 50vw;
+  padding: 30px;
+  background: rgba(255, 243, 240, 0.2);
+  border-radius: 15px;
+  margin-left: 20px;
+}
+
+#todo h1 {
+  font-size: 40px;
+  color: #dbebff;
+}
+
+#todo-form input {
+  font-family: 'Tektur', cursive;
+  font-size: 20px;
+  width: 500px;
+  padding: 10px;
+  border: #80b6fa solid 5px;
+  color: #3690fd;
+  background-color: #e0ebfc;
+}
+
+#todo-form input::placeholder {
+  color: #b2b1b1;
+}
+
+#todo-list li {
+  font-size: 25px;
+  list-style-type: "\25AA";
+  color: #e0ebfc;
+}
+
+#todo-list li i {
+  cursor: pointer;
+  margin-left: 5px;
+  font-size: 20px;
+  color: #ea188a;
+}
